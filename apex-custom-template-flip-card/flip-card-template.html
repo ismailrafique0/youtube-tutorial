@@ -1,0 +1,127 @@
+<!-- Row Template 1 -->
+<a href="#CARD_LINK#" class="flip-container">
+    <div class="flipper">
+        <!-- Card Front -->
+        <div class="front">
+            <div class="front-img-container">
+                <img src="#CARD_IMAGE#" class="front-img" />
+            </div>
+            <h2 class="front-title front-title-color">#CARD_TITLE#</h2>
+        </div>
+        
+        <!-- Card Back -->
+        <div class="back">
+            <div class="back-img-container">
+                <img src="#CARD_IMAGE#" class="back-img" />
+            </div>
+            <div class="back-detail-container">
+                <div class="back-detail-top">
+                    <h3 class="back-title">#CARD_TITLE#</h3>
+                    <p class="back-subtitle">#CARD_SUBTITLE#</p>
+                    <hr />
+                </div>
+                
+                <div class="font-a-icons">
+                    <div class="icon-group">
+                        <span class="bold">T: </span><span class="contact phone">#CARD_CONTACT_PHONE#</span>
+                    </div>
+                    <div class="icon-group">
+                        <span class="bold">E: </span><a class="contact email" href="mailto:#CARD_CONTACT_EMAIL#" target="_top">#CARD_CONTACT_EMAIL#</a>
+                    </div>
+                    <div class="icon-group">
+                        <span class="contact address">#CARD_CONTACT_ADDRESS#</span>
+                    </div>
+                </div>
+                
+                <div class="social-links">
+                    <a class="icon-box" href="#CARD_LINK_FACEBOOK#" target="_blank"><i class="fa fa-facebook"></i></a>
+                    <a class="icon-box" href="#CARD_LINK_TWITTER#" target="_blank"><i class="fa fa-twitter"></i></a>
+                    <a class="icon-box" href="#CARD_LINK_GPLUS#" target="_blank"><i class="fa fa-google-plus"></i></a>
+                    <a class="icon-box" href="#CARD_LINK_LINKEDIN#" target="_blank"><i class="fa fa-linkedin"></i></a>
+                    <a class="icon-box" href="#CARD_LINK_GITHUB#" target="_blank"><i class="fa fa-github"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</a>
+
+<!-- Row Template 1 Condition: Based on PLSQL Expression = :CARD_LINK is not null -->
+
+<!-- Row Template 2 -->
+<div class="flip-container">
+    <div class="flipper">
+        <!-- Card Front -->
+        <div class="front">
+            <div class="front-img-container">
+                <img src="#CARD_IMAGE#" class="front-img" />
+            </div>
+            <h2 class="front-title front-title-color">#CARD_TITLE#</h2>
+        </div>
+        
+        <!-- Card Back -->
+        <div class="back">
+            <div class="back-img-container">
+                <img src="#CARD_IMAGE#" class="back-img" />
+            </div>
+            <div class="back-detail-container">
+                <div class="back-detail-top">
+                    <h3 class="back-title">#CARD_TITLE#</h3>
+                    <p class="back-subtitle">#CARD_SUBTITLE#</p>
+                    <hr />
+                </div>
+                
+                <div class="font-a-icons">
+                    <div class="icon-group">
+                        <span class="bold">T: </span><span class="contact phone">#CARD_CONTACT_PHONE#</span>
+                    </div>
+                    <div class="icon-group">
+                        <span class="bold">E: </span><a class="contact email" href="mailto:#CARD_CONTACT_EMAIL#" target="_top">#CARD_CONTACT_EMAIL#</a>
+                    </div>
+                    <div class="icon-group">
+                        <span class="contact address">#CARD_CONTACT_ADDRESS#</span>
+                    </div>
+                </div>
+                
+                <div class="social-links">
+                    <a class="icon-box" href="#CARD_LINK_FACEBOOK#" target="_blank"><i class="fa fa-facebook"></i></a>
+                    <a class="icon-box" href="#CARD_LINK_TWITTER#" target="_blank"><i class="fa fa-twitter"></i></a>
+                    <a class="icon-box" href="#CARD_LINK_GPLUS#" target="_blank"><i class="fa fa-google-plus"></i></a>
+                    <a class="icon-box" href="#CARD_LINK_LINKEDIN#" target="_blank"><i class="fa fa-linkedin"></i></a>
+                    <a class="icon-box" href="#CARD_LINK_GITHUB#" target="_blank"><i class="fa fa-github"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!-- Before Rows -->
+<div class="flip-card-container #COMPONENT_CSS_CLASSES#" #REPORT_ATTRIBUTES# id="#REGION_STATIC_ID#_timeline" data-region-id="#REGION_STATIC_ID#">
+
+
+<!-- After Rows -->
+</div>
+<table class="t-Report-pagination" role="presentation">#PAGINATION#</table>
+
+<!-- Pagination Template -->
+<span class="t-Report-paginationText">#TEXT#</span>
+
+<!-- Next Page Template -->
+<a href="#LINK#" class="t-Button t-Button--small t-Button--noUI t-Report-paginationLink t-Report-paginationLink--next">
+    #PAGINATION_NEXT#<span class="a-Icon icon-right-arrow"></span>
+</a>
+
+<!-- Previous Page Template -->
+<a href="#LINK#" class="t-Button t-Button--small t-Button--noUI t-Report-paginationLink t-Report-paginationLink--prev">
+    <span class="a-Icon icon-left-arrow"></span>#PAGINATION_PREVIOUS#
+</a>
+
+<!-- Next Set Template -->
+<a href="#LINK#" class="t-Button t-Button--small t-Button--noUI t-Report-paginationLink t-Report-paginationLink--next">
+    #PAGINATION_NEXT_SET#<span class="a-Icon icon-right-arrow"></span>
+</a>
+
+<!-- Previous Set Template -->
+<a href="#LINK#" class="t-Button t-Button--small t-Button--noUI t-Report-paginationLink t-Report-paginationLink--prev">
+    <span class="a-Icon icon-left-arrow"></span>#PAGINATION_PREVIOUS_SET#
+</a>
